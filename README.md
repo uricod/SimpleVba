@@ -20,6 +20,14 @@ Set copyrng = ws.UsedRange
 4. Output should look something like below:
 ![output](/assets/oo.PNG)
 5. Copy code to a new VBA module and hit F5 to run code.
+6. Edit the text of the email inside the .body tag.
+> The & _ is how we denote code continues on next line in VBA.
+```HTML
+.HTMLbody = "<p>Dear Executive Department," & _
+    "<p> Please see sales per rep below:</p>" & _
+    "<img src='" & Path & "table1.PNG'>" & _
+    "<p> Please send bonus as soon as possible. Kindly remit payment at your earliest convenience.<p>Thank you,</p>"
+```
 
 6. [Link](/scripts/tableToEmail.bas) to code.
 
