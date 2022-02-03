@@ -7,7 +7,6 @@
 1. Was only tested on the latest o365 version as of February 3rd, 2022.
 > requires outlook library. In the VBA editor window (ALT+F11 on windows) click on tools and choose Microsoft Office 16.0.
 <br>
-</br>
 
 ![office](/assets/op.PNG)
 1. This only works if you have Outlook email client installed on your local machine.
